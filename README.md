@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Dividir is a full-stack web application built with **Next.js**, **Tailwind CSS**, **Convex**, and **Clerk** to help friends, roommates, and groups **split expenses effortlessly**, **track balances in real-time**, and **simplify settlements**.
 
-## Getting Started
+## Features
 
-First, run the development server:
+- **Real-Time Group Expense Management**
+  - Add, edit, and split expenses between group members
+  - Supports `equal`, `exact`, and `percentage` splits
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Smart Balance Tracking**
+  - Live updates of who owes what to whom
+  - Supports personal and group transactions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Visual Dashboards**
+  - Clean insights into balances and transaction history
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Authentication with Clerk**
+  - Secure login & user management
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email Reminders and AI Financial Insights** 
+  - Personalized spending summaries and notification of pending settlements
